@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    bottom: 0;
+}
+
+body {
+    color: white;
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+h2 {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+    text-decoration: underline;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+.q {
+    height: 100px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.q1 {
+    font-size: 36px;
+    text-decoration: underline;
+    margin-right: auto;
+}
+
+.q2 {
+    padding-left: 15px;
+}
+
+.q3 {
+    padding-left: 15px;
+}
+
+.q4 {
+    padding-left: 15px;
+}
+
+.q5 {
+    padding-left: 15px;
+}
+
+.w {
+    position: relative;
+    text-align: center;
+}
+
+.wimg {
+    height: 700px;
+    width: 100%;
+}
+
+.w1 {
+    position: absolute;
+    z-index: 999;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.e1  {
+    text-align: center;
+    padding-top: 45px;
+}
+
+.e2 {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.ee {
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.r {
+    margin-top: 150px;
+    margin-bottom: 150px;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rimg {
+    width: 320px;
+    height: 240px;
+}
+
+.rr {
+    width: 320px;
+    height: 340px;
+    text-align: center;  
+}
+
+.rimg1:hover {
+    -webkit-box-shadow: 16px -16px 8px 0px rgba(98, 116, 129, 0.37);
+-moz-box-shadow: 16px -16px 8px 0px rgba(98, 116, 129, 0.37);
+box-shadow: 16px -16px 8px 0px rgba(98, 116, 129, 0.37);
+}
+
+.rimg2:hover {
+    -webkit-box-shadow: 0px -16px 8px 0px rgba(98, 116, 129, 0.37);
+-moz-box-shadow: 0px -16px 8px 0px rgba(98, 116, 129, 0.37);
+box-shadow: 0px -16px 8px 0px rgba(98, 116, 129, 0.37);
+}
+
+.rimg3:hover {
+    -webkit-box-shadow: -16px -16px 8px 0px rgba(98, 116, 129, 0.37);
+-moz-box-shadow: -16px -16px 8px 0px rgba(98, 116, 129, 0.37);
+box-shadow: -16px -16px 8px 0px rgba(98, 116, 129, 0.37);
+}
