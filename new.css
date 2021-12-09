@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    bottom: 0;
+}
+
+body {
+    color: white;
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+h2 {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+    text-decoration: underline;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+.q {
+    height: 100px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.q1 {
+    font-size: 36px;
+    text-decoration: underline;
+    margin-right: auto;
+}
+
+.q2 {
+    padding-left: 15px;
+}
+
+.q3 {
+    padding-left: 15px;
+}
+
+.q4 {
+    padding-left: 15px;
+}
+
+.q5 {
+    padding-left: 15px;
+}
+
+.w {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.e {
+    width: 60%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+}
+
+.ee {
+    margin-top: 30px;
+}
+
+.r {
+    height: 150px;
+}
+
+
+
+
+@media screen and (max-width: 1240px) {
+
+    .q1 {
+        font-size: 22px;
+    }
+
+    .q2 {
+        font-size: 12px;
+    }
+
+    .q3 {
+        font-size: 12px;
+    }
+
+    .q4 {
+        font-size: 12px;
+    }
+
+    .q5 {
+        font-size: 12px;
+    }
+
+    
+}
+
+
+@media screen and (max-width: 820px) {
+h1 {
+    font-size: 24px;
+}
+
+.e {
+    font-size: 10px;
+    width: 80%;
+    font-size: 10px;
+}
+
+.ee {
+    margin-top: 10px;
+}
+
+.w {
+    margin-top: 30px;
+}
+
+.r {
+    height: 75px;
+}
+
+
+}
+
+
+@media screen and (max-width: 390px) {
+    .q {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 310px) {
+    .q {
+    display: flex;
+    flex-direction: column;
+    padding-top: 16px;
+    }
+
+    .q1 {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .q2 {
+        margin-top: 8px;
+    }
+
+    .q3 {
+        margin-top: 8px;
+    }
+
+    .q4 {
+        margin-top: 8px;
+    }
+
+    .q5 {
+        margin-top: 8px;
+    }
+}
+
+
+
+
